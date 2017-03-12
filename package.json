@@ -1,0 +1,28 @@
+{
+  "name": "sample-consumer",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "eslint": "eslint src/**/*.js",
+    "start": "node ./src/app.js",
+    "start:dev": "nodemon ./src/app.js",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.1",
+    "bluebird": "^3.4.6",
+    "body-parser": "^1.17.1",
+    "config": "^1.24.0",
+    "lodash": "^4.17.1",
+    "moment": "^2.16.0",
+    "winston": "^2.3.0"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "eslint": "^3.10.1",
+    "eslint-config-nodejs": "^1.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0"
+  }
+}

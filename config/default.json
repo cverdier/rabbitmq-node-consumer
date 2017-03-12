@@ -1,0 +1,16 @@
+{
+  "logger": {
+    "threshold": "debug",
+    "console": {
+      "level": "debug"
+    }
+  },
+  "consumer": {
+    "queue": "booking-logging"
+  },
+  "rabbitmq": {
+    "host": "localhost:5672",
+    "user": "guest",
+    "password": "guest"
+  }
+}
